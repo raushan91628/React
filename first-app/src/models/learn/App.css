@@ -1,0 +1,367 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    background:black;
+    padding: 2rem;
+    text-decoration: none;
+    color: #fff;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    margin-right: 200px;
+  }
+
+  
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: end;
+    justify-content: end;
+    text-align: end;
+    color: white;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 2rem;
+    color: #fff;
+    margin-right: 35px;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  
+  .menu-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  .link
+  {
+    text-decoration: none;
+    color: #fff;
+    gap: 2rem;
+    margin-top: 10%;
+  }
+  
+  .menu-link:hover {
+    color: green;
+  }
+  img{
+    text-align: center;
+    margin: auto;
+    width: 400px;
+  }
+  .about,.home
+  {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 20%;
+  }
+ .contact
+{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  gap:0.5rem;
+  margin: auto;
+  background-color: rgb(236, 237, 238);
+  padding: 2rem;
+  margin-top: 100px;
+  border-radius: 10%;
+  margin-right: 20%;
+}
+.contacteditform
+{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 600px;
+  gap:0.5rem;
+  margin: auto;
+  background-color: rgb(236, 237, 238);
+  padding: 2rem;
+  margin-top: 100px;
+  border-radius: 10%;
+  margin-right: 30%;
+  position: absolute;
+}
+/* button
+{
+  color: #fff;
+  background-color: blue;
+  padding: 1rem;
+} */
+.columnavbaritem {
+  text-align:center;
+  justify-content:center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color:black;
+ color: #fff;
+  font-size: 20px;
+  gap: 3rem;
+  position: fixed;
+  padding: 1rem;
+  z-index: 1000; 
+  top: 0%;
+  margin: auto;
+  height: 100%;
+  
+}
+.hrlogin-navbar
+{
+  text-align: start;
+  justify-content: start;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color:black;
+ color: #fff;
+  font-size: 20px;
+  gap: 2rem;
+  position: fixed;
+  padding: 1rem;
+  z-index: 1000; 
+  top: 0%;
+  margin: auto;
+  height: 100%;
+}
+.profilesection {
+  text-align: start;
+  justify-content: start;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8%;
+}
+.profile
+{
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 2rem;
+  width: 8%;
+  height: 10%;
+  background-color: #b4acac;
+}
+.registration
+{
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.interndata
+{
+  margin-left: 20%;
+}
+.form
+{
+  display: flex;
+  flex-direction: column;
+}
+.box
+{
+  text-align: start;
+  justify-content: start;
+  align-items: start;
+  border:  1px solid black;
+  gap:2rem;
+  margin-bottom: 2rem;
+}
+.Aboutus
+{
+margin-left: 20%;
+}
+.datalistlogin
+{
+  display: flex;
+  flex-direction: row;
+  gap: 40%;
+  padding: 1rem;
+  background-color: rgb(234, 234, 240);
+}
+.datalistintern
+{
+  display: flex;
+  flex-direction: row;
+  gap: 25%;
+  padding: 1rem;
+  background-color: rgb(234, 234, 240);
+}
+.datalistloginpage
+{
+  display: flex;
+  flex-direction: row;
+  gap: 28%;
+  padding: 1rem;
+}
+.datalistjobpage
+{
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
+  padding: 1rem;
+}
+.loginandsinguform
+{
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+  background-color:rgb(234, 234, 240) ;
+  width: 600px;
+  margin: auto;
+  margin-top: 5rem;
+  border-radius: 5%;
+  padding: 3rem;
+  font-weight: bold;
+}
+.input_space,input[type="text"],[type="email"],[type="Phone"],input[type="password"],textarea
+{
+  width: 500Px;
+  padding: 0.4rem;
+}
+.loginandsinghform
+{
+  margin-left: 20%;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+  background-color:rgb(234, 234, 240) ;
+  width: 600px;
+  margin: auto;
+  margin-top: 5rem;
+  border-radius: 5%;
+  padding: 3rem;
+  font-weight: bold;
+}
+.login-and-signup-button
+{
+  display: flex;
+  gap: 1rem;
+  background-color: blue;
+  padding: 1rem;
+  font-weight: bold;
+  border-radius: 10%;
+
+}
+.hrdashbord
+{
+  margin-left: 21%;
+  margin-right: 1%;
+  margin-top: 2%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  row-gap: 1rem;
+}
+.row
+{
+  gap: 0rem;
+}
+.divcol1
+{
+  border: 1px solid black;
+  column-gap: 1rem;
+  border-radius: 10%;
+  padding: 4rem;
+  background-color: aqua;
+}
+.applicationcount
+{
+  font-weight: bold;
+  font-size: 40px;
+}
+.applicationform-internship
+{
+  background-color: aquamarine;
+  position: absolute;
+  text-align: start;
+  padding: 2rem;
+}
+.job-application-form
+{
+  
+  background-color: aquamarine;
+  position: absolute;
+  text-align: start;
+  padding: 2rem;
+}
+.headinginternship
+{
+  text-align: center;
+}
+.datalistjobpage
+{
+  padding: 2rem;
+  position: relative;
+}
+.viewalldata
+{
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: aqua;
+  padding: 3rem;
+  gap: 2rem;
+  font-size: 30px;
+  border: 2px solid black;
+  color: blue;
+}
+.status
+{
+  text-align: center;
+  margin-top: 10px;
+  color: darkblue;
+}
+.admimform
+{
+  margin-left: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  position: absolute;
+  background-color: #eadfdf;
+  padding: 2rem;
+  gap: 1rem;
+}
+.applicationstatus
+{
+  background-color: blue;
+  color: white;
+  /* border-radius: 40%; */
+  padding: 0.5rem;
+}
+  
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block;
+      text-align: end;
+      justify-content: end;
+    }
+    .menu {
+      display: none;
+      flex-direction: column;
+      text-align: end;
+      width: 100%;
+    }
+    .menu.open {
+      display: flex;
+      text-align: end;
+    }
+  }
+  
+  
