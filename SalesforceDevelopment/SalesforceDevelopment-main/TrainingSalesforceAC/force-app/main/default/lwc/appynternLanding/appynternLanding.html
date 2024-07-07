@@ -1,0 +1,26 @@
+<template>
+    <div class="slds-grid slds-grid_align-center">
+        <div class="form-container slds-col slds-m-top_xx-large">
+            <lightning-card title="Login Form" icon-name="custom:custom19">
+                <lightning-input class="form-text-color centered-input" type="email" label="Email ID" required onchange={validateEmail}></lightning-input>
+                <lightning-input class="form-text-color centered-input" type="password" label="Password" required></lightning-input>
+
+                <lightning-combobox class="form-text-color centered-input" name="role" label="Role" placeholder="Select Role" 
+                    options={roles} onchange={handleRoleChange} required>
+                </lightning-combobox>
+          
+                <div class="slds-text-align_center">
+                  <lightning-button variant="brand" label="Log In" onclick={handleLogin} class="slds-m-top_medium form-text-color centered-input"></lightning-button>
+                </div>
+                
+                <div class="slds-m-top_medium form-text-color slds-text-align_center">
+                    <a href="/forgot-password">Forgot Password?</a>
+                </div>
+                
+                <div class="slds-m-top_medium form-text-color slds-text-align_center">
+                    <a href="/register">New User? Register</a>
+                </div>
+            </lightning-card>
+        </div>
+    </div>
+</template>

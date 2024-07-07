@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Fetched Accounts" >
+    <p> The Accounts are</p>
+        <template for:each={wiredAccount.data} for:item="acc">
+           <p key={acc.id}> {acc.Name} {acc.Phone}</p>
+
+        </template>
+    </lightning-card>
+    
+</template>

@@ -1,0 +1,30 @@
+<template>
+    <div class="slds-scope">
+        <div class="slds-box slds-theme_default">
+            <h1 class="slds-text-heading_medium">Suggested</h1>
+            <br><br><br>
+            <div class="slds-grid slds-m-bottom_x-large">
+                <p class="slds-text-title slds-col_bump-right">AppyCrown Pvt Ltd Motihari</p>
+                <template if:true={isApply}>
+                    <lightning-button variant="brand" label="Apply" title="Apply" onclick={handleApply}></lightning-button>
+                </template>
+                <template if:true={isPending}>
+                    <span class="slds-text-title">Status: Pending</span>
+                </template>
+            </div>
+        </div> 
+    </div>
+
+
+            <div style="height: 3em;"> </div>
+
+            <div class="slds-box slds-theme_default">
+                <h1 class="slds-text-heading_medium">SEARCH</h1>
+                <div class="slds-grid slds-m-bottom_x-small">
+                    <lightning-input type="text" label="Enter something to Search" class="slds-col slds-size_1-of-2 slds-p-right_small" onchange={handleSearchChange}></lightning-input>
+                    <lightning-button variant="brand" label="Submit" title="Submit" onclick={handleSearch}></lightning-button>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

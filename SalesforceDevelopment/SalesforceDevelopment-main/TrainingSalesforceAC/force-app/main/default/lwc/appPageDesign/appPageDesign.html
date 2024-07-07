@@ -1,0 +1,29 @@
+<template>
+    <div class="slds-grid slds-grid_align-center">
+        <div class="slds-col slds-size_1-of-2">
+            <lightning-card title='Complaint / Feedback ' icon-name='standard:workforce_engagement' class="slds-box slds-box_x-small">
+                <div class='slds-m-around_medium'>
+                    <h1 class="slds-text-heading_medium slds-text-align_center"> Fill the form to voice your concerns or share feedback  </h1>
+                    <div class='slds-grid slds-wrap'>
+                        <div class="slds-col slds-size_1-of-1 slds-m-bottom_small">
+                            <lightning-input label="Your Name" type="text"></lightning-input>
+                        </div>
+                        <div class="slds-col slds-size_1-of-1 slds-m-bottom_small">
+                            <lightning-input label="Email" type="email"></lightning-input>
+                        </div>
+                        <div class="slds-col slds-size_1-of-1 slds-m-bottom_small">
+                            <lightning-input label="Date" type="datetime"></lightning-input>
+                        </div>
+                        <div class="slds-col slds-size_1-of-1 slds-m-bottom_small">
+                            <lightning-textarea label="Feedback/Complaint"></lightning-textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="slds-align_absolute-center slds-m-vertical_medium">
+                    <lightning-button variant="destructive" label="Submit" onclick={TaskSuc}></lightning-button>
+                </div>
+                <p>{ToDisplay}</p>
+            </lightning-card>
+        </div>
+    </div>
+</template>
